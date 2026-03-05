@@ -21,4 +21,4 @@ try:
             GPIO.output(RED_PIN, GPIO.HIGH)
         time.sleep(0.1)
 except KeyboardInterrupt:
-    GPIO.cleanup()
+    GPIO.cleanup() 
